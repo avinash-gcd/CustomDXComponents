@@ -117,7 +117,7 @@ const AutoScrollDemo = (inputs: PegaExtensionsAutoScrollTextFieldProps) => {
       setPCore();
       const props = {
         ...args,
-        additionalProps: { style: { maxWidth: '22rem' } },
+        additionalProps: { style: { maxWidth: '10rem' } },
         getPConnect: setPConnect,
       };
       return <PegaExtensionsAutoScrollTextField {...props} />;

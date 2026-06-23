@@ -9,7 +9,7 @@ import styled, { css } from 'styled-components';
 export const StyledInputWrapper = styled.div(
   () => css`
     width: 100%;
-    max-width: 22rem;
+    max-width: 10rem;
 
     /* Target the native <input> rendered inside Cosmos Input */
     input[type='text'] {
